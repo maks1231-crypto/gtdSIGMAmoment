@@ -19,14 +19,14 @@ remotes.ChangeTickSpeed:InvokeServer(3)
 local difficulty = "dif_impossible"
 local placements = {
     {
-        time = 31, unit = "unit_lawnmower", slot = "1",
+        time = 34, unit = "unit_lawnmower", slot = "1",
         data = {Valid=true,PathIndex=3,Position=Vector3.new(-843.87384,62.1803055,-123.052032),
             DistanceAlongPath=248.0065,
             CF=CFrame.new(-843.87384,62.1803055,-123.052032,-0,0,1,0,1,-0,-1,0,-0),
             Rotation=180}
     },
     {
-        time = 35, unit = "unit_rafflesia", slot = "2",
+        time = 38, unit = "unit_rafflesia", slot = "2",
         data = {
             Valid = true,
             PathIndex = 3,
@@ -37,7 +37,7 @@ local placements = {
         }
     },
     {
-        time = 43, unit = "unit_rafflesia", slot = "2",
+        time = 46, unit = "unit_rafflesia", slot = "2",
         data = {
             Valid = true,
             PathIndex = 1,
@@ -48,7 +48,7 @@ local placements = {
         }
     },
     {
-        time = 58, unit = "unit_rafflesia", slot = "2",
+        time = 61, unit = "unit_rafflesia", slot = "2",
         data = {
             Valid = true,
             PathIndex = 3,
@@ -59,7 +59,7 @@ local placements = {
         }
     },
     {
-        time = 83, unit = "unit_rafflesia", slot = "2",
+        time = 86, unit = "unit_rafflesia", slot = "2",
         data = {
             Valid = true,
             PathIndex = 2,
@@ -93,4 +93,5 @@ end
 
 loadstring(game:HttpGet("https://pastebin.com/raw/HkAmPckQ"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))()
+
 
