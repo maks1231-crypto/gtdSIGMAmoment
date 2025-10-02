@@ -19,14 +19,14 @@ remotes.ChangeTickSpeed:InvokeServer(3)
 local difficulty = "dif_impossible"
 local placements = {
     {
-        time = 34, unit = "unit_lawnmower", slot = "1",
+        time = 29, unit = "unit_lawnmower", slot = "1",
         data = {Valid=true,PathIndex=3,Position=Vector3.new(-843.87384,62.1803055,-123.052032),
             DistanceAlongPath=248.0065,
             CF=CFrame.new(-843.87384,62.1803055,-123.052032,-0,0,1,0,1,-0,-1,0,-0),
             Rotation=180}
     },
     {
-        time = 38, unit = "unit_rafflesia", slot = "2",
+        time = 33, unit = "unit_rafflesia", slot = "2",
         data = {
             Valid = true,
             PathIndex = 3,
@@ -37,7 +37,7 @@ local placements = {
         }
     },
     {
-        time = 46, unit = "unit_rafflesia", slot = "2",
+        time = 41, unit = "unit_rafflesia", slot = "2",
         data = {
             Valid = true,
             PathIndex = 1,
@@ -48,7 +48,7 @@ local placements = {
         }
     },
     {
-        time = 61, unit = "unit_rafflesia", slot = "2",
+        time = 56, unit = "unit_rafflesia", slot = "2",
         data = {
             Valid = true,
             PathIndex = 3,
@@ -59,7 +59,7 @@ local placements = {
         }
     },
     {
-        time = 86, unit = "unit_rafflesia", slot = "2",
+        time = 81, unit = "unit_rafflesia", slot = "2",
         data = {
             Valid = true,
             PathIndex = 2,
@@ -72,7 +72,6 @@ local placements = {
 }
 
 local function placeUnit(unitName, slot, data)
-    task.wait(11)
     remotes.PlaceUnit:InvokeServer(unitName, data)
     warn("[Placing] "..unitName.." at "..os.clock())
 end
