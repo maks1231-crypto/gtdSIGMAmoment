@@ -13,9 +13,6 @@ task.delay(2, function()
     end)
 end)
 
-loadstring(game:HttpGet("https://pastebin.com/raw/HkAmPckQ"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))()
-
 warn("[System] Loaded 3x Speed Script")
 remotes.ChangeTickSpeed:InvokeServer(3)
 
@@ -92,6 +89,8 @@ end
 
 
 
+loadstring(game:HttpGet("https://pastebin.com/raw/HkAmPckQ"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))()
 
 
 
