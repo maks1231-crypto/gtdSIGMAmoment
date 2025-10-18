@@ -78,14 +78,16 @@ local function startGame()
     end
 end
 
+loadstring(game:HttpGet("https://pastebin.com/raw/HkAmPckQ"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))()
+
 while true do
     startGame()
     task.wait(128)
     remotes.RestartGame:InvokeServer()
 end
 
-loadstring(game:HttpGet("https://pastebin.com/raw/HkAmPckQ"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))()
+
 
 
 
