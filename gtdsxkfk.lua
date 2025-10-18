@@ -52,10 +52,10 @@ local placements = {
         data = {
             Valid = true,
             PathIndex = 1,
-            Position = Vector3.new(-842.3812866210938, 62.18030548095703, -165.13092041015625),
-            DistanceAlongPath = 177.42080688476562,
+            Position = Vector3.new(-335.41595458984375, 61.93030548095703, -840.1287841796875),
+            DistanceAlongPath = 235.39737582206726,
             Rotation = 180,
-            CF = CFrame.new(-842.3812866210938, 62.18030548095703, -165.13092041015625, 1, 0, -0, -0, 1, -0, -0, 0, 1)
+            CF = CFrame.new(-335.41595458984375, 61.93030548095703, -840.1287841796875, -1, 0, -0, -0, 1, -0, -0, 0, -1)
         }
     },
     {
@@ -93,6 +93,7 @@ end
 
 loadstring(game:HttpGet("https://pastebin.com/raw/HkAmPckQ"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))()
+
 
 
 
