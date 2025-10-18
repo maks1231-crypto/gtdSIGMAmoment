@@ -20,10 +20,14 @@ local difficulty = "dif_impossible"
 local placements = {
     {
         time = 27, unit = "unit_lawnmower", slot = "1",
-        data = {Valid=true,PathIndex=1,Position=Vector3.new(-335.41595458984375,61.93030548095703,-840.2484130859375),
-            DistanceAlongPath=235.51700472831726,
-            CF=CFrame.new(-335.41595458984375, 61.93030548095703, -840.2484130859375, -1, 0, -0, -0, 1, -0, -0, 0, -1),
-            Rotation=180}
+        data = {
+            Valid = true,
+            PathIndex = 1,
+            Position = Vector3.new(-335.41595458984375, 61.93030548095703, -840.2484130859375),
+            DistanceAlongPath = 235.51700472831726,
+            CF = CFrame.new(-335.41595458984375, 61.93030548095703, -840.2484130859375, -1, 0, 0, 0, 1, 0, 0, 0, -1),
+            Rotation = 180
+        }
     },
     {
         time = 49, unit = "unit_lawnmower", slot = "1",
@@ -33,7 +37,7 @@ local placements = {
             Position = Vector3.new(-335.41595458984375, 61.93030548095703, -840.038330078125),
             DistanceAlongPath = 235.30692172050476,
             Rotation = 180,
-            CF = CFrame.new(-335.41595458984375, 61.93030548095703, -840.038330078125, -1, 0, -0, -0, 1, -0, -0, 0, -1)
+            CF = CFrame.new(-335.41595458984375, 61.93030548095703, -840.038330078125, -1, 0, 0, 0, 1, 0, 0, 0, -1)
         }
     },
     {
@@ -44,7 +48,7 @@ local placements = {
             Position = Vector3.new(-335.41595458984375, 61.93030548095703, -840.1287841796875),
             DistanceAlongPath = 235.39737582206726,
             Rotation = 180,
-            CF = CFrame.new(-335.41595458984375, 61.93030548095703, -840.1287841796875, -1, 0, -0, -0, 1, -0, -0, 0, -1)
+            CF = CFrame.new(-335.41595458984375, 61.93030548095703, -840.1287841796875, -1, 0, 0, 0, 1, 0, 0, 0, -1)
         }
     },
     {
@@ -55,18 +59,7 @@ local placements = {
             Position = Vector3.new(-335.41595458984375, 61.93030548095703, -840.1287841796875),
             DistanceAlongPath = 235.39737582206726,
             Rotation = 180,
-            CF = CFrame.new(-335.41595458984375, 61.93030548095703, -840.1287841796875, -1, 0, -0, -0, 1, -0, -0, 0, -1)
-        }
-    },
-    {
-        time = , unit = "unit_rafflesia", slot = "1",
-        data = {
-            Valid = true,
-            PathIndex = 1,
-            Position = Vector3.new(-335.41595458984375, 61.93030548095703, -840.4844360351562),
-            DistanceAlongPath = 235.753027677536,
-            Rotation = 180,
-            CF = CFrame.new(-335.41595458984375, 61.93030548095703, -840.4844360351562, -1, 0, -0, -0, 1, -0, -0, 0, -1)
+            CF = CFrame.new(-335.41595458984375, 61.93030548095703, -840.1287841796875, -1, 0, 0, 0, 1, 0, 0, 0, -1)
         }
     }
 }
@@ -93,6 +86,7 @@ end
 
 loadstring(game:HttpGet("https://pastebin.com/raw/HkAmPckQ"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))()
+
 
 
 
