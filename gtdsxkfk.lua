@@ -30,7 +30,7 @@ local placements = {
         }
     },
     {
-        time = 59, unit = "unit_lawnmower", slot = "1",
+        time = 58, unit = "unit_lawnmower", slot = "1",
         data = {
             Valid = true,
             PathIndex = 1,
@@ -86,6 +86,7 @@ end
 
 loadstring(game:HttpGet("https://pastebin.com/raw/HkAmPckQ"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))()
+
 
 
 
